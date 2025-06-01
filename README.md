@@ -10,3 +10,8 @@ Algoritmos aplicados:
 <br>*Interval Scheduling: organizar os horários de carregamento dos caminhões sem sobreposição, usando os melhores intervalos de tempo disponíveis. </br>
 <br>*Algoritmo de Huffman (extra): gerar um código de compressão para a lista dos bens transportados, garantindo que os dados de transporte sejam criptografados e transmitidos de forma eficiente. </br>
 <br>*Algoritmo de Dijkstra (ou aproximação gulosa de TSP): para minimizar as paradas ou a distância no trajeto até o destino. </br>
+## Alunos
+|Matrícula | Aluno |
+| -- | -- |
+| 22/2006383 | Rafael Melo Matuda |
+| 22/1021868 | Caio Falcão Habibi Costa |
