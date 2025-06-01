@@ -1,10 +1,19 @@
 #include <iostream>
 #include <sstream>
+#include <cstdlib> /
 #include "knapsack.h"
 #include "partitioning.h"
 #include "huffman.h"
 
 using namespace std;
+
+void limparTela() {
+#ifdef _WIN32
+    system("cls");
+#else
+    system("clear");
+#endif
+}
 
 void mostrarMenu() {
     cout << "\n=== Operação Cofre: Logística da Fortuna ===\n";
@@ -15,7 +24,6 @@ void mostrarMenu() {
     cout << "Escolha uma opção: ";
 }
 
-// Resultado global armazenado para uso posterior
 ResultadoKnapsack resultadoGlobal;
 
 int main() {
@@ -27,14 +35,18 @@ int main() {
 
         switch (opcao) {
             case 1:
+                limparTela();
                 resultadoGlobal = executarKnapsack();
                 break;
 
             case 2:
+                limparTela();
                 executarPartitioning();
                 break;
 
             case 3: {
+                limparTela();
+
                 if (resultadoGlobal.itensSelecionados.empty()) {
                     cout << "Você precisa executar o Knapsack primeiro!\n";
                     break;

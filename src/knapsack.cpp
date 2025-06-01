@@ -13,7 +13,7 @@ ResultadoKnapsack executarKnapsack() {
     int n;
     double capacidade;
 
-    cout << "Digite a capacidade do caminhao: ";
+    cout << "Digite a capacidade do caminhão: ";
     cin >> capacidade;
 
     cout << "Digite o número de itens: ";

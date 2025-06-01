@@ -17,7 +17,7 @@ bool compararPorInicio(const Intervalo &a, const Intervalo &b) {
 
 void executarPartitioning() {
     int n;
-    cout << "Digite o número de caminhões (intervalos de saída): ";
+    cout << "Digite o número de caminhões: ";
     cin >> n;
 
     vector<Intervalo> intervalos(n);
