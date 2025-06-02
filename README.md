@@ -35,4 +35,5 @@ O sistema simula essa missão em três etapas principais:
 
 ---
 
+Link do video: [Video](https://www.loom.com/share/fd330ea408c649018247de3e5842a368?sid=276cb602-b07b-4f0f-b93f-0a9bc3ebcc40)
 
